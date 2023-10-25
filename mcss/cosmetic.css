@@ -1,0 +1,64 @@
+
+.fit-image {
+    width: 100%;
+    max-width: 800px;
+}
+
+.sidebar p{
+    color: #fff
+}
+
+
+.panel {
+    background-color: #f0f0f0;
+    padding: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+aside {
+    margin-left: auto;
+}
+.container main {
+    flex: 1; /* Головна частина */
+}
+
+.sidebar {
+    background-color: #333;
+    color: #fff;
+
+    width: 250px;
+    padding: 20px;
+
+}
+
+.logo {
+    font-size: 24px;
+}
+
+.menu {
+    flex: 1;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.menu li {
+    margin: 0 10px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #333;
+    transition: background-color 0.3s;
+}
+
+.menu a:hover {
+    background-color: #0073e6;
+    color: #fff;
+}

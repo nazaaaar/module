@@ -1,0 +1,57 @@
+/* Стилі для заголовка */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
+
+/* Стилі для логотипу */
+
+
+/* Стилі для рядку пошуку та кнопки */
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+.search-box {
+    display: flex;
+    align-items: center;
+}
+
+
+.search-box input {
+    padding: 5px;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+.search-box button {
+    background-color: #0073e6;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    #left-sidebar {
+        display: none; /* Hide the sidebar */
+    }
+}
